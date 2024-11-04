@@ -35,7 +35,7 @@ const LandingPage = () => {
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Failures are not the end, but a new beginning. Share your experiences, 
-              learn from others' experiences, and grow together.
+              learn from others&apos; experiences, and grow together.
             </p>
             <div className="flex justify-center gap-4">
               <Button className="bg-blue-600 text-white px-8 py-6 text-lg">
@@ -59,7 +59,7 @@ const LandingPage = () => {
               <h3 className="text-xl font-semibold mb-2">Experience Sharing</h3>
               <p className="text-gray-600">
                 Share your failure experiences anonymously and 
-                learn from others' experiences.
+                learn from others&apos; experiences.
               </p>
             </div>
             <div className="p-6 bg-white rounded-xl shadow-sm border hover:shadow-md transition">
@@ -163,24 +163,24 @@ const LandingPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6 bg-white rounded-xl shadow-sm border">
               <p className="text-gray-600 mb-4">
-                "Sharing my failures was difficult at first, but thanks to this community, 
-                I realized they were learning opportunities."
+                &quot;Sharing my failures was difficult at first, but thanks to this community, 
+                I realized they were learning opportunities.&quot;
               </p>
               <p className="font-semibold">Alex Y.</p>
               <p className="text-sm text-gray-500">Software Developer</p>
             </div>
             <div className="p-6 bg-white rounded-xl shadow-sm border">
               <p className="text-gray-600 mb-4">
-                "Learning from others' experiences helped me avoid 
-                repeating their mistakes."
+                &quot;Learning from others&apos; experiences helped me avoid 
+                repeating their mistakes.&quot;
               </p>
               <p className="font-semibold">Sarah M.</p>
               <p className="text-sm text-gray-500">Entrepreneur</p>
             </div>
             <div className="p-6 bg-white rounded-xl shadow-sm border">
               <p className="text-gray-600 mb-4">
-                "With enterprise membership, our team shares experiences 
-                and learns together."
+                &quot;With enterprise membership, our team shares experiences 
+                and learns together.&quot;
               </p>
               <p className="font-semibold">Michael K.</p>
               <p className="text-sm text-gray-500">Team Leader</p>
