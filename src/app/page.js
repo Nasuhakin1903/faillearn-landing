@@ -163,24 +163,24 @@ const LandingPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6 bg-white rounded-xl shadow-sm border">
               <p className="text-gray-600 mb-4">
-                &quot;Sharing my failures was difficult at first, but thanks to this community, 
-                I realized they were learning opportunities.&quot;
+                &ldquo;Sharing my failures was difficult at first, but thanks to this community, 
+                I realized they were learning opportunities.&rdquo;
               </p>
               <p className="font-semibold">Alex Y.</p>
               <p className="text-sm text-gray-500">Software Developer</p>
             </div>
             <div className="p-6 bg-white rounded-xl shadow-sm border">
               <p className="text-gray-600 mb-4">
-                &quot;Learning from others&apos; experiences helped me avoid 
-                repeating their mistakes.&quot;
+                &ldquo;Learning from others&apos; experiences helped me avoid 
+                repeating their mistakes.&rdquo;
               </p>
               <p className="font-semibold">Sarah M.</p>
               <p className="text-sm text-gray-500">Entrepreneur</p>
             </div>
             <div className="p-6 bg-white rounded-xl shadow-sm border">
               <p className="text-gray-600 mb-4">
-                &quot;With enterprise membership, our team shares experiences 
-                and learns together.&quot;
+                &ldquo;With enterprise membership, our team shares experiences 
+                and learns together.&rdquo;
               </p>
               <p className="font-semibold">Michael K.</p>
               <p className="text-sm text-gray-500">Team Leader</p>
@@ -236,7 +236,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-sm text-center">
-            © 2024 FailLearn. All rights reserved.
+            © {new Date().getFullYear()} FailLearn. All rights reserved.
           </div>
         </div>
       </footer>
