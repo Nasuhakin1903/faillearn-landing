@@ -156,38 +156,38 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* Testimonials */}
-      <div id="testimonials" className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Kullanıcılarımız Ne Diyor?</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-xl shadow-sm border">
-              <p className="text-gray-600 mb-4">
-                "Başarısızlıklarımı paylaşmak başta zordu ama buradaki topluluk 
-                sayesinde bunların birer öğrenme fırsatı olduğunu anladım."
-              </p>
-              <p className="font-semibold">Ahmet Y.</p>
-              <p className="text-sm text-gray-500">Yazılım Geliştirici</p>
-            </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm border">
-              <p className="text-gray-600 mb-4">
-                "Başkalarının deneyimlerinden öğrenmek, kendi hatalarımı 
-                tekrarlamamama yardımcı oldu."
-              </p>
-              <p className="font-semibold">Ayşe M.</p>
-              <p className="text-sm text-gray-500">Girişimci</p>
-            </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm border">
-              <p className="text-gray-600 mb-4">
-                "Kurumsal üyelik sayesinde ekibimiz deneyimlerini paylaşıyor 
-                ve birlikte öğreniyoruz."
-              </p>
-              <p className="font-semibold">Mehmet K.</p>
-              <p className="text-sm text-gray-500">Takım Lideri</p>
-            </div>
-          </div>
-        </div>
+     {/* Testimonials */}
+<div id="testimonials" className="py-20">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl font-bold text-center mb-12">Kullanıcılarımız Ne Diyor?</h2>
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="p-6 bg-white rounded-xl shadow-sm border">
+        <p className="text-gray-600 mb-4">
+          &ldquo;Başarısızlıklarımı paylaşmak başta zordu ama buradaki topluluk 
+          sayesinde bunların birer öğrenme fırsatı olduğunu anladım.&rdquo;
+        </p>
+        <p className="font-semibold">Ahmet Y.</p>
+        <p className="text-sm text-gray-500">Yazılım Geliştirici</p>
       </div>
+      <div className="p-6 bg-white rounded-xl shadow-sm border">
+        <p className="text-gray-600 mb-4">
+          &ldquo;Başkalarının deneyimlerinden öğrenmek, kendi hatalarımı 
+          tekrarlamamama yardımcı oldu.&rdquo;
+        </p>
+        <p className="font-semibold">Ayşe M.</p>
+        <p className="text-sm text-gray-500">Girişimci</p>
+      </div>
+      <div className="p-6 bg-white rounded-xl shadow-sm border">
+        <p className="text-gray-600 mb-4">
+          &ldquo;Kurumsal üyelik sayesinde ekibimiz deneyimlerini paylaşıyor 
+          ve birlikte öğreniyoruz.&rdquo;
+        </p>
+        <p className="font-semibold">Mehmet K.</p>
+        <p className="text-sm text-gray-500">Takım Lideri</p>
+      </div>
+    </div>
+  </div>
+</div> 
 
       {/* CTA Section */}
       <div className="bg-blue-600 py-20">
